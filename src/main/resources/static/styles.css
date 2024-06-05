@@ -1,0 +1,254 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+/* Hero section styles */
+.hero {
+    padding: 2rem;
+    text-align: center;
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    color: #1e90ff;
+    border: 2px solid #1e90ff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+/* Features section styles */
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.feature {
+    flex-basis: 30%;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature p {
+    font-size: 1rem;
+}
+
+/* Product List Styles */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product {
+    width: 300px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.product:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.product .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.product .button:hover {
+    background-color: #0056b3;
+}
+
+/* Service section styles */
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.service {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service h2 {
+    color: #333;
+}
+
+.service p {
+    color: #666;
+}
+
+/* About us section styles */
+.about-section {
+    padding: 50px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Contact us section styles */
+.contact-section {
+    padding: 50px;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
